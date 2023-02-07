@@ -1,0 +1,31 @@
+.wd-background{
+background-color: black;
+color: white
+}
+
+.wd-background-search{
+background-color: rgb(47, 51,54);
+color: white;
+}
+
+.wd-rounded-corners-all-around {
+ border-radius: 50px;
+ width : 80%
+}
+
+.wd-margin-left {
+  margin-left: 16px;
+
+}
+
+.wd-margin-top {
+  margin-top: 16px;
+
+}
+
+.wd-border {
+border-color: rgb(47, 51,54);
+border-width : 1px;
+border-style : solid;
+
+}
