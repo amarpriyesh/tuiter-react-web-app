@@ -1,11 +1,28 @@
+
+body {
+  background-color: black;
+  margin: 0 16px 0 16px;
+  border: 1px solid rgb(47, 51,54);
+}
 .wd-background{
 background-color: black;
 color: white
 }
+.wd-div1{
+   padding-left: 16px;
+   display: flex;
+   position: relative;
+   justify-content: space-between;
+   align-items: center;
+  }
 
 .wd-background-search{
 background-color: rgb(47, 51,54);
 color: white;
+height: 45px;
+  flex-grow: 1;
+  font-size: 20px;
+  padding-left: 40px;
 }
 
 .wd-rounded-corners-all-around {
@@ -29,3 +46,139 @@ border-width : 1px;
 border-style : solid;
 
 }
+
+.wd-div1 {
+  padding-left: 16px;
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.wd-search1 {
+  background-color: rgb(47, 51, 54);
+  height: 45px;
+  border-radius: 120px;
+  border: none;
+  flex-grow: 1;
+  font-size: 20px;
+  padding-left: 40px;
+   margin-top:16px;
+}
+
+.wd-fa {
+  color: rgb(111, 117, 126);
+}
+
+.wd-fa-search {
+  position: absolute;
+  font-size: 24px;
+  left: 24px;
+   margin-top:16px;
+}
+
+.wd-fa-cog {
+  color: rgb(28, 160, 243);
+  margin: 0 12px 0 40px;
+   margin-top:16px;
+
+}
+
+.wd-fa-blue {
+  color: rgb(28, 160, 243);
+
+
+}
+
+.wd-explore-tab-collection {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid rgb(47, 51,54);
+}
+.wd-explore-tab {
+  font-size: 15px;
+  padding: 16px;
+  text-decoration: none;
+  font-weight: 900;
+  color: rgb(110, 118, 125);
+
+}
+.wd-defaultTab-selected {
+  color: rgb(29, 161, 242);
+  border-bottom: 3px solid rgb(29, 161, 242);
+}
+.wd-gap {
+
+  border-top: 2px solid rgb(47, 51,54);
+  height: 16px;
+  background-color: rgb(30, 30, 30);
+  border-bottom: 1px solid rgb(47, 51,54);
+}
+.wd-post{
+display: flex;
+  justify-content: space-between;
+height : 130px;
+ border-bottom: 1px solid rgb(47, 51,54);
+}
+
+.wd-topic {
+margin-top: 15px;
+margin-left: 16px;
+font-size:13px;
+color: rgb(110,118,125);
+
+}
+
+
+.wd-tweet {
+margin-top: 5px;
+margin-left: 16px;
+font-size:13px;
+color: rgb(110,118,125);
+
+}
+
+.wd-title{
+
+font-size:13;
+color: white;
+}
+.wd-image{
+height: 100px;
+width: 100px;
+margin-right: 16px;
+margin-top: 15px;
+margin-bottom: 15px;
+border-radius: 20px;
+}
+
+.wd-grid-col-main-content {
+   width: 80%;
+   float: left;
+}
+
+.wd-grid-col-img-content {
+ width: 20%;
+   float: right;
+}
+
+.wd-article-title {
+  font-size: 19px;
+  margin: 5px 0px 5px 16px;
+  color: white;
+}
+
+.wd-open-topic {
+  color: rgb(110, 118, 125);
+  float: right;
+  padding-right: 16px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.wd-handle-name {
+  color: white;
+  font-size: 14px;
+  font-weight: bolder;
+}
+

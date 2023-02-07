@@ -1,0 +1,139 @@
+
+
+.wd-bookmarks-head {
+  padding-left: 16px;
+  border-bottom: 1px solid rgb(47, 51, 54);
+}
+.wd-header {
+  margin: 10px 0 0 0;
+  color: white;
+  font-size: 20px;
+  font-weight: bolder;
+}
+.wd-title {
+  color: grey;
+  font-size: 13px;
+  padding-bottom: 12px;
+}
+.wd-profile {
+  margin-top: 12px;
+
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+
+}
+.wd-main-container {
+  padding-left: 16px;
+  display: flex;
+  border-bottom: 1px solid rgb(47, 51, 54);
+  display: grid;
+}
+
+.wd-posts {
+  display: flex;
+  width: 500px;
+  border: 1px solid rgb(47, 51, 54);
+}
+
+.wd-profile-container {
+  margin-left: 16px;
+  width: 48px;
+  float: left;
+}
+.wd-content {
+  width: auto;
+  margin: 12px 0 0 16px;
+  border-bottom: 1px solid rgb(47, 51, 54);
+  padding-left: 65px;
+}
+.wd-owner {
+  color: white;
+  font-size: 15px;
+  font-weight: bolder;
+}
+.wd-handle {
+  color: lightgray;
+  font-size: 15px;
+}
+.wd-dots-top {
+  color: rgb(25, 140, 180);
+  float: right;
+  padding-right: 15px;
+  font-size: 20px;
+  cursor: pointer;
+}
+.wd-dots {
+  color: gray;
+  float: right;
+  padding-right: 16px;
+  font-size: 20px;
+  cursor: pointer;
+}
+.wd-article {
+  padding-top: 12px;
+  color: white;
+  font-size: 15px;
+  max-width: 506px;
+  margin-bottom: 12px;
+}
+
+.wd-article-img {
+  border-radius: 15px 15px 0 0;
+
+  border: 1px solid rgb(47, 51, 54);
+  border-bottom: none;
+
+  display: block;
+  height: 264px;
+  width: 504px;
+  object-fit: cover;
+}
+.wd-lightgray {
+  color: gray;
+
+}
+.wd-continue{
+  width: 99.7%;
+  padding: 12px;
+    border: 1px solid rgb(47, 51, 54);
+  border-top: none;
+  border-radius: 0 0 15px 15px;
+}
+.wd-icon {
+  display: flex;
+  padding: 12px 12px 12px 12px;
+  justify-content: space-between;
+  width: 37%;
+}
+.wd-icon i {
+  color: gray;
+  font-size: 12px;
+}
+.wd-icon .wd-like-highlight {
+  color: red;
+}
+
+.wd-icon-spacing {
+  margin-right: 12px;
+}
+* {
+   box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+
+}
+:root {
+  --light-gray-color: rgb(110, 118, 125);
+}
+body {
+  background-color: black;
+  margin: 5px 20px 5px 20px;
+  border: 1px solid rgb(47, 51, 54);
+  border-bottom: auto;
+  height: auto;
+  width: auto;
+}
