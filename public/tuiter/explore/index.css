@@ -58,6 +58,7 @@ border-style : solid;
 .wd-search1 {
   background-color: rgb(47, 51, 54);
   height: 45px;
+  color:white;
   border-radius: 120px;
   border: none;
   flex-grow: 1;
@@ -171,6 +172,22 @@ border-radius: 20px;
 .wd-open-topic {
   color: rgb(110, 118, 125);
   float: right;
+  padding-right: 16px;
+  font-size: 20px;
+  cursor: pointer;
+
+
+}
+.wd-dot {
+height=2px;
+}
+
+.wd-open-topic-white{
+  color: white;
+  align:right;
+  float: right;
+   padding-bottom: 0px;
+  margin-bottom:0px;
   padding-right: 16px;
   font-size: 20px;
   cursor: pointer;
