@@ -294,7 +294,7 @@ color: blue;}
     height: 200px;
     background-color: yellow;
     color: black;
-  } /* continued on right */
+  }
    50% {
       position: relative;
       top: -200px;
@@ -317,11 +317,13 @@ color: blue;}
       color: white;
     }
   }
+
 .flex-container {
   border-width: 5px;
   border-color: black;
   border-style: solid;
 }
+
 .flex-box {
   border: 5px gray solid;
   margin: 10px;
@@ -338,6 +340,47 @@ color: blue;}
   background-color: red;
   color: white;
 }
+
+.flex-container1 {
+   border-width: 5px;
+   border-color: black;
+   border-style: solid;
+   display: flex;
+}
+
+.flex-container2 {
+   border-width: 5px;
+   border-color: black;
+   border-style: solid;
+   display: flex;
+   justify-content: center;
+}
+
+.flex-container3 {
+   border-width: 5px;
+   border-color: black;
+   border-style: solid;
+   display: flex;
+   justify-content: end;
+}
+
+.flex-container4 {
+   border-width: 5px;
+   border-color: black;
+   border-style: solid;
+   display: flex;
+   justify-content: space-around;
+}
+
+.flex-container5 {
+   border-width: 5px;
+   border-color: black;
+   border-style: solid;
+   display: flex;
+   justify-content: space-between;
+}
+
+
 
 
 @media (min-width: 0px)
