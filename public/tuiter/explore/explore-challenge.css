@@ -11,7 +11,7 @@
     border-radius: 18px;
     height: 35px;
     width: 100%;
-    border-width: 1px;
+    border-width: 0px;
 }
 
 .wd-input-field {
@@ -188,3 +188,51 @@ text-decoration: none;
     color: white;
 }
 
+.wd-search1 {
+  background-color:lightgrey;
+
+  color:black;
+  border-color: lightgrey;
+
+}
+.fa-search1 {
+   color: rgb(110, 118, 125);
+    font-weight: bold;
+}
+
+.btn-primary.wd-button12 {
+   color: white;
+    background-color: black;
+}
+
+.list-group-item.override-color {
+background-color:lightgrey;
+border-width:0px;
+}
+
+.list-group-item.override-color1 {
+background-color:white;
+border-width:0px;
+}
+
+.list-group-item.bolder {
+font-weight: bold;
+font-color:black;
+}
+
+.fa-twitter.color{
+color:#0d6efd;
+}
+
+.bi-patch-check-fill.color{
+color:#0d6efd;
+}
+
+.fa-cog.color {
+    color: black;
+
+}
+.list-group-item.link {
+font-weight: bold;
+color:#0d6efd;
+}
