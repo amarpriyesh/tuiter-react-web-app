@@ -45,6 +45,7 @@
 
 .wd-font-size {
     font-size: 15px;
+
 }
 
 .wd-duration {
@@ -70,6 +71,14 @@
   left: 16px;
   font-size: 25px;
   font-weight: bold;
+}
+
+.wd-bottom-left1 {
+  position: absolute;
+  bottom: 40px;
+  left: 16px;
+  font-size: 15px;
+
 }
 
 .wd-container {
@@ -213,6 +222,16 @@ border-width:0px;
 .list-group-item.override-color1 {
 background-color:white;
 border-width:0px;
+color:gray;
+
+}
+
+.list-group-item.bold {
+background-color:white;
+border-width:0px;
+font-weight:bolder;
+font-size:1.2rem;
+color=black;
 }
 
 .list-group-item.bolder {
@@ -233,6 +252,66 @@ color:#0d6efd;
 
 }
 .list-group-item.link {
-font-weight: bold;
+
 color:#0d6efd;
+underline:none;
 }
+
+.nav-link.override-bs-selected {
+    color: darkslategray;
+    font-weight: bold;
+    text-decoration: underline;
+    text-underline-offset: 12px;
+    text-decoration-thickness: 3px;
+}
+
+.nav-link.override-bs-color {
+    color: gray;
+    font-weight: bold;
+
+
+}
+
+.fa-hashtag.override {
+font-weight:bold;
+
+color: black;
+}
+
+.list-group-item-action.border1{
+background-color:white;
+border:none;
+color:gray;
+
+
+}
+
+.fa-hashtag.color{
+color:black;
+text-weight:bolder;
+font-size:1.2rem;
+}
+
+.wd-open-topic {
+  color: rgb(110, 118, 125);
+  float: right;
+  padding-right: 16px;
+  font-size: 20px;
+  cursor: pointer;
+
+
+}
+.border-top-0 {
+ border-style: solid;
+  border-color: lightgrey;
+  border-width:1px;
+
+}
+
+
+.rounded-square1 {
+border-radius: 5px;
+
+}
+.bi-patch-check-fill.color-gold {
+color:darkgoldenrod}
