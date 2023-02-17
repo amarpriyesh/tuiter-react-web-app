@@ -12,6 +12,7 @@
     height: 35px;
     width: 100%;
     border-width: 1px;
+
 }
 
 .wd-input-field {
@@ -148,6 +149,10 @@
     border: 1px solid rgb(47, 51, 54);
 }
 
+.wd-image-border {
+    border: 1px solid lightgrey;
+}
+
 .wd-hyperlink {
 color: rgb(0,191,255);
 text-decoration: none;
@@ -188,3 +193,9 @@ text-decoration: none;
     color: white;
 }
 
+.border-top-0 {
+ border-style: solid;
+  border-color: lightgrey;
+  border-width:1px;
+
+}
