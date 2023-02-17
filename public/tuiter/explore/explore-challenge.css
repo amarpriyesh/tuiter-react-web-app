@@ -198,10 +198,10 @@ text-decoration: none;
 }
 
 .wd-search1 {
-  background-color:lightgrey;
+  background-color:whitesmoke;
 
   color:black;
-  border-color: lightgrey;
+  border-color:lightgrey ;
 
 }
 .fa-search1 {
@@ -215,7 +215,7 @@ text-decoration: none;
 }
 
 .list-group-item.override-color {
-background-color:lightgrey;
+background-color:whitesmoke;
 border-width:0px;
 }
 
