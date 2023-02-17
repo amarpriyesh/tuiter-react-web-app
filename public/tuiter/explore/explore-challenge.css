@@ -222,7 +222,7 @@ border-width:0px;
 .list-group-item.override-color1 {
 background-color:white;
 border-width:0px;
-color:gray;
+color:darkslategray;
 
 }
 
@@ -315,3 +315,7 @@ border-radius: 5px;
 }
 .bi-patch-check-fill.color-gold {
 color:darkgoldenrod}
+
+.marginRight{
+margin-right:10px;
+}
