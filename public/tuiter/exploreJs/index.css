@@ -32,7 +32,9 @@
 .wd-input-field {
     padding-left: 30px;
     text-align: left;
-    ;
+    background: white;
+    color: black;
+    
 }
 
 .wd-title {
