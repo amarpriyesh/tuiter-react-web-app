@@ -1,8 +1,10 @@
-import PostList from "../PostList/index.js";
+import PostSummaryList from "../PostSummaryList/index.js"
 
-const HomeComponent = () => {
-  return `
-           <div class="row">
+
+
+const ExploreComponent  = () => {
+    return(`
+    <div class="row">
 
                 <div class="col-10"
                         style="display: flex; justify-content: center; align-items: center;">
@@ -55,7 +57,21 @@ const HomeComponent = () => {
                 </span>
                 
             </ul>
-            ${PostList()}
-    `;
-};
-export default HomeComponent;
+            
+               <div class="row ">
+                          
+                            <div class="wd-container pt-1 ">
+                                <img src="../../images/star.jpg"
+                                     class="border"
+                                     width="100%"
+                                     height="100%"
+                                >
+                                <div class="wd-bottom-left">SpaceX's Starship</div>
+                            </div>
+                        </div>
+                        ${PostSummaryList()}
+                      
+                      
+    `)
+}
+export  default ExploreComponent

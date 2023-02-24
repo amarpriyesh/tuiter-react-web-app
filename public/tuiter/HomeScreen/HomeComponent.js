@@ -2,7 +2,7 @@ import PostList from "../PostList/index.js";
 
 const HomeComponent = () => {
   return `
-           <div class="row">
+            <div class="row">
 
                 <div class="col-10"
                         style="display: flex; justify-content: center; align-items: center;">

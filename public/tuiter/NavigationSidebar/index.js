@@ -5,12 +5,12 @@ const NavigationSidebar = (select) => {
                 <a href="#" class="list-group-item list-group-item-action" aria-current="true">
                     <i class="fab fa-twitter fa-2x"></i>
                 </a>
-                <a href="../home/index.html" class="list-group-item list-group-item-action ${select==="home" ? "active" : ""}">
+                <a href="../HomeScreen/index.html" class="list-group-item list-group-item-action ${select==="home" ? "active" : ""}">
                     <i class="fa fa-home"></i>
                     Home
                 </a>
                 
-                <a href="../exploreJs/index.html" class="list-group-item list-group-item-action ${select==="explore" ? "active" : ""} ">
+                <a href="../ExploreScreen/index.html" class="list-group-item list-group-item-action ${select==="explore" ? "active" : ""} ">
                     <i class="fa fa-hashtag"></i>
                     Explore
                 </a>
@@ -45,10 +45,10 @@ const NavigationSidebar = (select) => {
                 <a href="#" class="list-group-item list-group-item-action" aria-current="true">
                     <i class="fab fa-twitter fa-2x"></i>
                 </a>
-                <a href="../home/index.html" class="list-group-item list-group-item-action ${select==="home" ? "active" : ""}">
+                <a href="../HomeScreen/index.html" class="list-group-item list-group-item-action ${select==="home" ? "active" : ""}">
                     <i class="fa fa-home"></i>
                 </a>
-                <a href="../exploreJs/index.html" class="list-group-item list-group-item-action ${select==="explore" ? "active" : ""}">
+                <a href="../ExploreScreen/index.html" class="list-group-item list-group-item-action ${select==="explore" ? "active" : ""}">
                     <i class="fa fa-hashtag"></i>
                 </a>
                 <a href="#" class="list-group-item list-group-item-action ${select==="notification" ? "active" : ""}">
