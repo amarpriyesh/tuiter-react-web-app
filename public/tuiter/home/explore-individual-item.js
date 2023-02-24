@@ -2,7 +2,7 @@
 const indItem = (item) => {
     return (`
     
-       <li class="list-group-item list-group-override">  <div class="wd-side-column-font-size pt3Override   pb3Override row">
+       <li class="list-group-item list-group-override">  <div class="wd-side-column-font-size pt3Override  pb3Override row m-auto">
                         <div class="col-9">
                                 <div class="wd-title pt-1">${item.topic} </div>
                                 <div class="wd-float-left wd-text-bold wd-side-column-font-size">${item.userName} </div>
@@ -17,7 +17,7 @@ const indItem = (item) => {
 
                             <div class="col-3">
                                 <img src="${item.image}"
-                                     class="wd-image-style pt-1 float-right"
+                                     class="wd-image-style pt-1 float-right "
                                 />
                             </div>
                         

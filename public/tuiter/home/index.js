@@ -16,9 +16,11 @@ function home() {
      ${HomeComponent()}
     </div>
     <div class="col-lg-4 col-xl-4 d-none d-lg-block">
+    <div class="row">
     <ul class="list-group">
    ${exploreItems.map(item => indItem(item )).join('')}
    </ul>
+   </div>
     </div>
     </div>
 `);

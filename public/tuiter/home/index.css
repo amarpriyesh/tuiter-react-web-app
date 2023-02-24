@@ -58,8 +58,9 @@
 .wd-image-style {
     height: 70px;
     width: 70px;
-    float: right;
+
     margin-right: 1rem;
+    align-content: center;
 }
 
 .wd-font-size {
