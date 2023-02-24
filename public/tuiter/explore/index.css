@@ -141,7 +141,7 @@ color: rgb(110,118,125);
 
 .wd-title{
 
-font-size:13;
+font-size:13px;
 color: white;
 }
 .wd-image{
@@ -179,7 +179,7 @@ border-radius: 20px;
 
 }
 .wd-dot {
-height=2px;
+height:2px;
 }
 
 .wd-open-topic-white{
