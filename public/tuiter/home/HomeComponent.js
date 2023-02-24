@@ -1,10 +1,8 @@
-import indItem from "./explore-individual-item.js"
-import exploreItems from "./explore-items.js"
+import PostList from "../PostList/index.js";
 
-
-const exploreListItems = (items) => {
-    return(`
-    <div class="row">
+const HomeComponent = () => {
+  return `
+            <div class="row">
 
                 <div class="col-10"
                         style="display: flex; justify-content: center; align-items: center;">
@@ -57,25 +55,7 @@ const exploreListItems = (items) => {
                 </span>
                 
             </ul>
-            
-               <div class="row ">
-                          
-                            <div class="wd-container pt-1 ">
-                                <img src="../exploreJs/media/star.jpg"
-                                     class="border"
-                                     width="100%"
-                                     height="100%"
-                                >
-                                <div class="wd-bottom-left">SpaceX's Starship</div>
-                            </div>
-                        </div>
-                        <div class="row">
-<ul class="list-group">
-                       ${exploreItems.map(abc => indItem(abc)).join('')}
-                       </ul>
-                       </div>
-                      
-                      
-    `)
-}
-export  default exploreListItems
+            ${PostList()}
+    `;
+};
+export default HomeComponent;

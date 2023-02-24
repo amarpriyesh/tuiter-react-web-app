@@ -1,5 +1,19 @@
+.wd-image-icon {
+    height: 40px;
+    width: 40px;
+}
+
+
+-------
+
 .wd-input-icons i {
     position: absolute;
+}
+
+.wd-icon-2{
+   margin-left: 40px;
+   float: top;
+
 }
 
 .wd-icon {
@@ -18,6 +32,9 @@
 .wd-input-field {
     padding-left: 30px;
     text-align: left;
+    background: white;
+    color: black;
+
 }
 
 .wd-title {
@@ -25,8 +42,8 @@
 }
 
 ::placeholder {
-  color: rgb(110, 118, 125);
-  font-weight: bold;
+    color: rgb(110, 118, 125);
+    font-weight: bold;
 }
 
 .wd-float-left {
@@ -39,14 +56,14 @@
 }
 
 .wd-image-style {
-    height: 100px;
-    width: 100px;
+    height: 70px;
+    width: 70px;
     float: right;
-
+    margin-right: 1rem;
 }
 
 .wd-font-size {
-    font-size: 15px;
+    font-size: 12px;
 }
 
 .wd-duration {
@@ -55,12 +72,11 @@
 
 .wd-side-column-font-size {
     font-size: 14px;
-
 }
 
 .wd-image-icon {
-    height: 40px;
-    width: 40px;
+    height: 70px;
+    width: 70px;
 }
 
 .wd-float-left-side-bar {
@@ -68,17 +84,17 @@
 }
 
 .wd-bottom-left {
-  position: absolute;
-  bottom: 8px;
-  left: 16px;
-  font-size: 25px;
-  font-weight: bold;
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+    font-size: 25px;
+    font-weight: bold;
 }
 
 .wd-container {
-  position: relative;
-  text-align: center;
-  color: white;
+    position: relative;
+    text-align: center;
+    color: white;
 }
 
 .wd-background-color {
@@ -156,8 +172,8 @@
 }
 
 .wd-hyperlink {
-color: rgb(0,191,255);
-text-decoration: none;
+    color: rgb(0,191,255);
+    text-decoration: none;
 }
 
 .wd-side-bar-footer {
@@ -170,14 +186,14 @@ text-decoration: none;
 }
 
 .wd-footer-container {
-  float: left;
-  padding: 7px;
+    float: left;
+    padding: 7px;
 }
 
 .wd-clearfix::after {
-  content: "";
-  clear: both;
-  display: table;
+    content: "";
+    clear: both;
+    display: table;
 }
 
 .active.override-active {
@@ -196,8 +212,23 @@ text-decoration: none;
 }
 
 .border-top-0 {
- border-style: solid;
-  border-color: lightgrey;
-  border-width:1px;
+    border-style: solid;
+    border-color: lightgrey;
+    border-width:1px;
 
+}
+
+.pb-3.pb3Override {
+    padding-bottom:0px;
+    padding-top:0px;
+
+}
+.pt-3.pt3Override {
+    padding-bottom:0px;
+    padding-top:0px;
+
+}
+
+.list-group-item.list-group-override{
+    padding: 0rem;
 }

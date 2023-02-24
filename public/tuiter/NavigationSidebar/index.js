@@ -1,39 +1,40 @@
 
-const NavigationSidebar = () => {
+const NavigationSidebar = (select) => {
     return(`
             <div class="list-group d-none d-lg-block">
                 <a href="#" class="list-group-item list-group-item-action" aria-current="true">
                     <i class="fab fa-twitter fa-2x"></i>
                 </a>
-                <a href="#" class="list-group-item list-group-item-action">
+                <a href="#" class="list-group-item list-group-item-action ${select==="home" ? "active" : ""}">
                     <i class="fa fa-home"></i>
                     Home
                 </a>
-                <a href="#" class="list-group-item list-group-item-action active">
+                
+                <a href="#" class="list-group-item list-group-item-action ${select==="explore" ? "active" : ""} ">
                     <i class="fa fa-hashtag"></i>
                     Explore
                 </a>
-                <a href="#" class="list-group-item list-group-item-action">
+                <a href="#" class="list-group-item list-group-item-action ${select==="notification" ? "active" : ""}">
                     <i class="fa fa-bell"></i>
                     Notification
                 </a>
-                <a href="#" class="list-group-item list-group-item-action">
+                <a href="#" class="list-group-item list-group-item-action ${select==="message" ? "active" : ""}">
                     <i class="fa fa-envelope"></i>
                     Messages
                 </a>
-                <a href="#" class="list-group-item list-group-item-action">
+                <a href="#" class="list-group-item list-group-item-action ${select==="bookmarks" ? "active" : ""}">
                     <i class="fa fa-bookmark"></i>
                     Bookmarks
                 </a>
-                <a href="#" class="list-group-item list-group-item-action">
+                <a href="#" class="list-group-item list-group-item-action ${select==="lists" ? "active" : ""}">
                     <i class="fas fa-list"></i>
                     Lists
                 </a>
-                <a href="#" class="list-group-item list-group-item-action">
+                <a href="#" class="list-group-item list-group-item-action ${select==="profile" ? "active" : ""}">
                     <i class="fas fa-user"></i>
                     Profile
                 </a>
-                <a href="#" class="list-group-item list-group-item-action">
+                <a href="#" class="list-group-item list-group-item-action ${select==="more" ? "active" : ""}">
                     <i class="fas fa-minus-circle"></i>
                     More
                 </a>
@@ -44,28 +45,28 @@ const NavigationSidebar = () => {
                 <a href="#" class="list-group-item list-group-item-action" aria-current="true">
                     <i class="fab fa-twitter fa-2x"></i>
                 </a>
-                <a href="#" class="list-group-item list-group-item-action">
+                <a href="#" class="list-group-item list-group-item-action ${select==="home" ? "active" : ""}">
                     <i class="fa fa-home"></i>
                 </a>
-                <a href="#" class="list-group-item list-group-item-action active">
+                <a href="#" class="list-group-item list-group-item-action ${select==="explore" ? "active" : ""}">
                     <i class="fa fa-hashtag"></i>
                 </a>
-                <a href="#" class="list-group-item list-group-item-action">
+                <a href="#" class="list-group-item list-group-item-action ${select==="notification" ? "active" : ""}">
                     <i class="fa fa-bell"></i>
                 </a>
-                <a href="#" class="list-group-item list-group-item-action">
+                <a href="#" class="list-group-item list-group-item-action ${select==="message" ? "active" : ""}">
                     <i class="fa fa-envelope"></i>
                 </a>
-                <a href="#" class="list-group-item list-group-item-action">
+                <a href="#" class="list-group-item list-group-item-action ${select==="bookmarks" ? "active" : ""}">
                     <i class="fa fa-bookmark"></i>
                 </a>
-                <a href="#" class="list-group-item list-group-item-action">
+                <a href="#" class="list-group-item list-group-item-action ${select==="lists" ? "active" : ""}">
                     <i class="fas fa-list"></i>
                 </a>
-                <a href="#" class="list-group-item list-group-item-action">
+                <a href="#" class="list-group-item list-group-item-action ${select==="profile" ? "active" : ""}">
                     <i class="fas fa-user"></i>
                 </a>
-                <a href="#" class="list-group-item list-group-item-action">
+                <a href="#" class="list-group-item list-group-item-action ${select==="more" ? "active" : ""}">
                     <i class="fas fa-minus-circle"></i>
                 </a>
             </div>
