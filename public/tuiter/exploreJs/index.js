@@ -1,6 +1,6 @@
 import WhoToFollowList from "./WhoToFollowList/index1.js";
 import exploreListItems from "./ExploreComponent/explore-list-item.js"
-import NavigationSidebar from "./nav.js"
+import NavigationSidebar from "../NavigationSidebar/index.js"
 function exploreComponent() {
    $('#wd-explore').append(`
   <div class="row mt-3">
