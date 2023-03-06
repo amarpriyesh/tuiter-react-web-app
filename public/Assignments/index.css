@@ -1,2 +1,16 @@
-.ul {
-color:red;}
+.QWE {
+    background-color: white;
+    color: green;
+}
+#WRE {
+    background-color: white;
+    color: grey;
+}
+#tyu {
+    background-color: white;
+    color: orange;
+}
+#qwe { background-color: red }
+#wer { background-color: blue }
+.qwe { background-color: red; color: white }
+.wer { background-color: blue; color: white }
