@@ -1,12 +1,9 @@
 import NavigationSidebar from "../NavigationSidebar/index.js";
 import PostSummaryList from "../PostSummaryList/index.js"
-
 import HomeComponent from "./HomeComponent.js"
 
-
-
 function home() {
-  $("#wd-explore").append(`
+  $('#wd-explore').append(`
     <div class="row mt-3">  
     <div class="col-3 col-lg-2 col-xl-2">
         ${NavigationSidebar("home")}
@@ -19,7 +16,6 @@ function home() {
    ${PostSummaryList()}
    
     </div>
-    </div>
-`);
+    </div>`);
 }
 $(home);

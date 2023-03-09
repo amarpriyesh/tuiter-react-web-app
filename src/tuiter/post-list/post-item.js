@@ -5,7 +5,7 @@ const PostItem = (
             "author": "Elon Musk",
             "userName": "elonmusk",
             "time": "23h",
-            "title1": "Amazing show about ",
+            "title1": "Amazing show about",
             "link" : "@inspiration4x",
             "title2":" mission!",
             "avatarImage": "starship.jpeg",
@@ -39,8 +39,9 @@ const PostItem = (
                     <div>
                           <span>
                               <b>{post.author}</b>
-                              <i className="fa fa-check-circle" aria-hidden="true"></i>
+                              <i className="fa fa-check-circle" style={{"color":"blue"}} aria-hidden="true"></i>
                           </span>
+                        {' '}
 
                         <span className="text-muted">
                               @{post.userName} - ${post.time}
@@ -49,7 +50,7 @@ const PostItem = (
                         <span style={{"float":"right"}}>&#183;&#183;&#183;</span>
                     </div>
                     <div>
-                        {post.title1}<a href='#'>{post.link}</a>{post.title2}
+                        <div dangerouslySetInnerHTML={{ __html: post.title}}></div>
                     </div>
                     <div className="mt-2">
                         <img
