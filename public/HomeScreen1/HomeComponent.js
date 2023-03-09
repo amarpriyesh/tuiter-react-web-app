@@ -1,7 +1,7 @@
 import PostList from "../PostList/index.js";
 
 const HomeComponent = () => {
-  return (`
+  return `
             <div class="row">
 
                 <div class="col-10"
@@ -24,7 +24,7 @@ const HomeComponent = () => {
 
                 <div class="col-2" 
                      style="display: flex; justify-content: center; align-items: center;>
-                    <a href="#"></a>
+                    <a href="#">
                     <i class="fa fa-inverse fa-cog fa-2x" aria-hidden="true"></i>
                     </a>
                 </div>
@@ -55,7 +55,7 @@ const HomeComponent = () => {
                 </span>
                 
             </ul>
-            ${PostList()}`)
-
+            ${PostList()}
+    `;
 };
 export default HomeComponent;

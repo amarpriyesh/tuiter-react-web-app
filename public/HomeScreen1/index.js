@@ -1,4 +1,4 @@
-import NavigationSidebar from "../NavigationSidebar/index.js"
+import NavigationSidebar from "../NavigationSidebar/index.js";
 import PostSummaryList from "../PostSummaryList/index.js"
 import HomeComponent from "./HomeComponent.js"
 
