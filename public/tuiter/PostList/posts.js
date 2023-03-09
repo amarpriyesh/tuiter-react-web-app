@@ -1,3 +1,5 @@
+import React from "react";
+
 export default [
   {
     author: "Elon Musk",
@@ -28,5 +30,5 @@ export default [
     numberOfComments: "965",
     numberOfRetweets: "2.4k",
     numberOfLikes: "4k",
-  },
+  }
 ];
