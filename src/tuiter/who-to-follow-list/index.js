@@ -5,7 +5,7 @@ import WhoToFollowListItem
 
 const WhoToFollowList = () => {
     return(
-        <ul className="list-group">
+        <ul className="list-group wd-margin-right">
             <li className="list-group-item">
                 <h3>Who to follow</h3>
             </li>
