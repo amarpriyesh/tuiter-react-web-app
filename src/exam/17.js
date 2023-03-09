@@ -2,7 +2,7 @@ import React, { useState } from "react";
 function Xyz1() {
     const [qwe, wer] = useState([123, 234, 345, 456, 567])
     const ert = (rty) => {
-        const tyu = qwe.filter(yui => yui != rty)
+        const tyu = qwe.filter(yui => yui !== rty)
         wer(tyu)
     }
     return(
