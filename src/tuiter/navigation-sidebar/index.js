@@ -20,14 +20,7 @@ const NavigationSidebar = (
             <Link to="/" className="list-group-item">
                 Labs
             </Link>
-        <a className={`list-group-item
-                    ${active === 'home'?'active':''}`}>
-            Home
-        </a>
-        <a className={`list-group-item
-                    ${active === 'explore'?'active':''}`}>
-            Explore
-        </a>
+
         <a className={`list-group-item
                     ${active === 'notifications'?'active':''}`}>
             Notifications
