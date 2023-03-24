@@ -6,7 +6,7 @@ import Tuiter from "./tuiter";
 import {BrowserRouter} from "react-router-dom";
 import {Route,Routes} from "react-router";
 
-import TodoItem from "./todo/todo-item";
+import TodoList from "./todo/todo-list";
 import Exam from "./exam";
 
 
@@ -28,7 +28,7 @@ function App() {
                 <Route index element={<Labs/>}/>
                 <Route path="/hello" element={<HelloWorld/>}/>
                 <Route path="/tuiter/*" element={<Tuiter/>}/>
-                <Route path="/todo" element={<TodoItem/>}/>
+                <Route path="/todo" element={<TodoList/>}/>
                 <Route path="/exam"
                        element={<Exam/>}/>
             </Routes>
