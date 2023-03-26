@@ -10,7 +10,6 @@ function Assignment6() {
     const dangerous = true;
     return(
         <div>
-            <Nav/>
             <h1>Assignment 6</h1>
             <TodoList/>
             <ConditionalOutput/>
