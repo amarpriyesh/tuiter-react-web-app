@@ -1,9 +1,17 @@
 import React from "react";
 import {useSelector} from "react-redux";
-const  ProfileComponent=()=> {
-    const profile = useSelector((state) => state.profile)
-    return(<><h4>Profile</h4>
-        <div><img src={"/images/java.png"}/></div>
-    </>)
+import {Route,Routes} from "react-router";
+import ProfileComponent from "./profile";
+import EditProfile from "./edit-profile";
+
+const Profile = () => {
+    return(
+        <Routes>
+            <Route index
+                   element={<ProfileComponent/>}/>
+            <Route path="/edit-profile"
+                   element={<EditProfile/>}/>
+        </Routes>
+    )
 }
-export default ProfileComponent
+export default Profile

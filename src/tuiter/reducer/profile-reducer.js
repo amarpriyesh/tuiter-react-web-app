@@ -7,7 +7,12 @@ const profileSlice = createSlice({
                                    initialState: profile,
                                    reducers: {
                                        editProfile(state, action) {
-                                           state=action.payload
+                                           state.firstName =action.payload.firstName
+                                           state.lastName =action.payload.lastName
+                                           state.bio = action.payload.bio
+                                           state.dateOfBirth = action.payload.dateOfBirth
+                                           state.website = action.payload.website
+                                           state.handle = action.payload.handle
                                        }}
 
                                });
