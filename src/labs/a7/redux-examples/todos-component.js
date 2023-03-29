@@ -63,7 +63,7 @@ const Todos = () => {
 
                     todos.map((todo,index) =>
                                   <li key={todo._id} className="list-group-item">
-                                      <input type="checkbox" checked={todo.done} onChange={() => toggleTodo(index)}/>
+                                      <input className="me-2" type="checkbox" checked={todo.done} onChange={() => toggleTodo(index)}/>
                                       {todo.do}
                                       <button onClick={() => deleteTodoClickHandler(index)}
                                               className="btn btn-danger w-10

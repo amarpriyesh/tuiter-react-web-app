@@ -40,10 +40,10 @@ const NavigationSidebar = (
                     ${active === 'lists'?'active':''}`}>
             <i className="fa fa-list"></i> Lists
         </a>
-        <a className={`list-group-item
-                    ${active === 'profile'?'active':''}`}>
-            <i className="fa fa-user"></i> Profile
-        </a>
+            <Link to="/tuiter/profile" className={`list-group-item ${active === 'profile'?'active':''}`}>
+                <i className="fa fa-user"></i>   Profile
+            </Link>
+
         <a className={`list-group-item
                     ${active === 'more'?'active':''}`}>
             <i className="fa fa-minus-circle"></i> More
@@ -85,10 +85,9 @@ const NavigationSidebar = (
                     ${active === 'lists'?'active':''}`}>
             <i className="fa fa-list"></i>
         </a>
-        <a className={`list-group-item
-                    ${active === 'profile'?'active':''}`}>
+        <Link to="/tuiter/profile" className={`list-group-item ${active === 'profile'?'active':''}`}>
             <i className="fa fa-user"></i>
-        </a>
+        </Link>
         <a className={`list-group-item
                     ${active === 'more'?'active':''}`}>
             <i className="fa fa-minus-circle"></i>
