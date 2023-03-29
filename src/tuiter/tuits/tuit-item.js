@@ -88,11 +88,18 @@ const TuitItem = (
                                   }</span>
                                 </i>
 
-                                <i className="fa fa-heart" aria-hidden="true" style={{"font-weight":"110","color":"red"}}>
-                                  <span style={{"margin-left": "6px","color":"black"}}>{
-                                      tuit.likes
-                                  }</span>
-                                </i>
+                                { tuit.liked ? <i className="fa fa-heart" aria-hidden="true" style={{"font-weight":"110","color":"red"}}>
+                                  <span style={{"margin-left": "6px","color":"black"}}>
+                                      {tuit.likes}
+                                  </span>
+                                </i> :
+                                    <i className="fa fa-heart-o" aria-hidden="true" style={{"font-weight":"110"}}>
+                                    <span style={{"margin-left": "6px","color":"black"}}>{
+                                    tuit.likes
+                                }</span>
+                                    </i>}
+
+
 
                                 <i className="fa fa-share-alt" aria-hidden="true"
                                    style={{"font-weight":"610"}}> </i>

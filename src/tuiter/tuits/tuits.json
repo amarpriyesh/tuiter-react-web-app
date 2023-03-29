@@ -22,10 +22,10 @@
     "time": "10h",
     "title": "100s of SpaceX Starships land on Mars after a 6 month journey. 1000s of Martian colonists being building Mars Base 1",
     "image": "tesla-icon.png",
-    "liked": true,
+    "liked": false,
     "replies": 896,
     "retuits": 56,
-    "likes": 123,
+    "likes": 0,
     "handle": "@Tesla",
     "tuit": "Tesla, Inc. is an American multinational automotive and clean energy company headquartered in Austin, Texas. Tesla designs and manufactures electric vehicles, battery energy storage from home to grid-scale, solar panels and solar roof tiles, and related products and services"
   },
