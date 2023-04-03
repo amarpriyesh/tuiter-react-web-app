@@ -1,6 +1,7 @@
 import React from "react";
 import {useDispatch} from "react-redux";
 import {deleteTuit} from "../tuits/tuits-reducer";
+import {deleteTuitThunk, updateTuitThunk} from "../../services/tuits-thunks";
 
 
 const TuitItem = (
@@ -26,7 +27,7 @@ const TuitItem = (
 
     const dispatch = useDispatch();
     const deleteTuitHandler = (id) => {
-        dispatch(deleteTuit(id));
+        dispatch(deleteTuitThunk(id));
     }
 
     return(
@@ -88,11 +89,41 @@ const TuitItem = (
                                   }</span>
                                 </i>
 
-                                <i className="fa fa-heart" aria-hidden="true" style={{"font-weight":"110","color":"red"}}>
+                                { tuit.likes>0 && <i  onClick={() => dispatch(updateTuitThunk({
+                                                                                ...tuit,
+                                                                                likes: tuit.likes + 1
+                                                                            }))} className="fa fa-heart" aria-hidden="true" style={{"font-weight":"110","color":"red"}}>
                                   <span style={{"margin-left": "6px","color":"black"}}>{
                                       tuit.likes
                                   }</span>
-                                </i>
+                                </i>}
+
+                                { tuit.likes===0 && <i  onClick={() => dispatch(updateTuitThunk({
+                                                                                                  ...tuit,
+                                                                                                  likes: tuit.likes + 1
+                                                                                              }))} className="fa fa-heart-o" aria-hidden="true" >
+                                  <span style={{"margin-left": "6px","color":"black"}}>{
+                                      tuit.likes
+                                  }</span>
+                                </i>}
+
+
+                                {tuit.dislikes > 0 &&  <i  onClick={() => dispatch(updateTuitThunk({
+                                                                                ...tuit,
+                                                                                dislikes: tuit.dislikes + 1
+                                                                            }))} className="fa fa-thumbs-down" aria-hidden="true" style={{"font-weight":"110","color":"black"}}>
+                                  <span style={{"margin-left": "6px","color":"black"}}>{
+                                      tuit.dislikes
+                                  }</span>
+                                </i>}
+                                {tuit.dislikes === 0 &&  <i  onClick={() => dispatch(updateTuitThunk({
+                                                                                                       ...tuit,
+                                                                                                       dislikes: tuit.dislikes + 1
+                                                                                                   }))} className="fa fa-thumbs-o-down" aria-hidden="true" >
+                                  <span style={{"margin-left": "6px","color":"black"}}>{
+                                      tuit.dislikes
+                                  }</span>
+                                </i>}
 
                                 <i className="fa fa-share-alt" aria-hidden="true"
                                    style={{"font-weight":"610"}}> </i>
